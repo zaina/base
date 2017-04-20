@@ -1,0 +1,14 @@
+---
+# tasks file for base
+
+- include_role:
+    name: role1
+
+- debug: 
+    msg: "base role included"
+
+- include_role:
+    name: role2
+
+- include_role:
+    name: ansible-role-jenkins
